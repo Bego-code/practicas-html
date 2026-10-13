@@ -3,183 +3,276 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi primera página web</title>
+    <title>Lumo Home</title>
   </head>
-  <body
-    style="margin: 0; font-family: Arial, Helvetica, sans-serif; color: black"
-  >
+
+  <body>
     <header
       style="
-        background-color: hsl(0, 0%, 13%);
-        padding: 20px;
+        justify-content: space-between;
         text-align: center;
+        background-image: url(&quot;fondo-terracota.jpg&quot;);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-opacity: 0.7;
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
       "
     >
-      <div
-        style="
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-        "
-      >
-        <nav style="margin-left: 70%">
-          <a
-            href="#inicio"
-            style="
-              color: white;
-              font-size: 12px;
-              text-decoration: none;
-              padding: 0 15px;
-            "
-            >INICIO</a
-          >
-          <a
-            href="#sobre-mi"
-            style="
-              color: white;
-              font-size: 12px;
-              text-decoration: none;
-              padding: 0 15px;
-            "
-            >SOBRE MÍ</a
-          >
-          <a
-            href="#misproyectos"
-            style="
-              color: white;
-              font-size: 12px;
-              text-decoration: none;
-              padding: 0 15px;
-            "
-            >MIS PROYECTOS</a
-          >
-          <a
-            href="#contacto"
-            style="
-              color: white;
-              font-size: 12px;
-              text-decoration: none;
-              padding: 0 15px;
-            "
-            >CONTACTO</a
-          >
-        </nav>
+      <div>
+        <div
+          class="logo"
+          style="display: flex; align-items: top; background-color: #2b2b2b75"
+        >
+          <img
+            src="logo-my-web.png"
+            alt="Lumo Homme Logo "
+            width="140px"
+            height="130x"
+            padding-right="10px"
+          />
+        </div>
+        <div>
+          <nav>
+            <ul
+              style="
+                list-style: none;
+                display: flex;
+                gap: 20px;
+                text-align: center;
+                justify-content: center;
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+                margin-top: -70px;
+                margin-bottom: 20px;
+              "
+            >
+              <li>
+                <a
+                  href="index.html"
+                  style="text-decoration: none; color: #e3d5ca"
+                  >HOME</a
+                >
+              </li>
+              <li>
+                <a
+                  href="products.html"
+                  style="text-decoration: none; color: #e3d5ca"
+                  >PRODUCTOS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="about.html"
+                  style="text-decoration: none; color: #e3d5ca"
+                  >SOBRE NOSOTROS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html"
+                  style="text-decoration: none; color: #e3d5ca"
+                  >CONTACTO</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div style="text-align: center; margin-top: 20px">
+      <div>
         <img
-          src="6858.jpg"
-          alt="Mi foto"
+          src="nombre-header.png"
+          alt="Lumo Homme TItle"
           style="
-            border-radius: 50%;
-            width: 250px;
-            height: 250px;
+            text-align: center;
+            justify-content: center;
+            width: 300px;
+            height: 200px;
+            padding-top: 20px;
+            margin-top: 30px;
             object-fit: cover;
           "
         />
       </div>
-      <h1 style="color: white; font-size: 24px; font-family: Arial, sans-serif">
-        WELCOME TO MY WEBSITE
-      </h1>
-      <hr style="border: 1px solid white; width: 50%; margin: 20px auto" />
     </header>
-    <hr style="border: 1px solid #00fff25e; width: 100%; margin: 0" />
-    <main style="padding: 20px">
-      <section
+    <section
+      style="
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 500px;
+        background-color: #e3d5ca;
+        border-radius: 20px;
+        margin-right: 20px;
+      "
+    >
+      <div
         style="
-          display: flex;
-          alin-items: center;
-          justify-content: space-between;
-          margin-top: 60px;
+          text-align: center;
+          font-family: Arial, sans-serif;
+          font-size: 24px;
+          color: #2b2b2b;
+          padding: 20px;
+          padding-top: 50px;
         "
       >
-        <div style="flex: 1; margin: 10px 180px; text-align: left">
-          <h2 style="color: #333; font-size: 20px">Bienvenido</h2>
-          <p>
-            Tener una web hoy en día es como tener el escaparate de tu tienda
-            abierto las 24 horas del día. Pero no basta con estar en internet,
-            hay que destacar. Hemos diseñado esta plataforma para que sea tu
-            mejor vendedor: fácil de navegar desde el móvil, rapidísima al
-            cargar y con un diseño que atrapa la atención desde el primer
-            segundo.
-          </p>
-          <a
-            href="https://www.google.com/"
-            target="_blank"
-            style="text-decoration: none"
-          >
-            <button
-              style="
-                background-color: #1818185e;
-                color: white;
-                border: none;
-                border-radius: 5px;
-                padding: 10px 20px;
-                font-size: 14px;
-                cursor: pointer;
-              "
-            >
-              Leer más
-            </button>
-          </a>
-        </div>
-
-        <div>
-          <img
-            src="abstract-uv-ultraviolet-light-composition.jpg"
-            alt="Mi foto"
+        <h1 style="font-size: 24px; margin-bottom: 20px">
+          Luz, diseño y calidez para cada rincón de tu casa
+        </h1>
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin-top: 50px;
+            gap: 20px;
+          "
+        >
+          <article
             style="
-              border-radius: 20%;
-              width: 300px;
-              height: 300px;
-              object-fit: cover;
-              margin-right: 200px;
+              width: 200px;
+              height:300px;
+              text-align: center;
+              margin-right: 20px;
+              font-family: Arial, sans-serif;
+              font-size: 16px;
+              background-color: #5262543b;
+              color: #2b2b2b;
+              border-radius: 20px;
+              padding: 20px;
             "
-          />
+          >
+            <img
+              src="salon.jpg"
+              alt="Sala moderna"
+              style="
+                width: 180px;
+                height: 270px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-radius: 20px;
+              "
+            />
+            <h4 style="margin-top: 0;">SALÓN</h4>
+          </article>
+          <article
+            style="
+              width: 200px;
+              height: 300px;
+              text-align: center;
+              margin-right: 20px;
+              margin-left: 20px;
+              font-family: Arial, sans-serif;
+              font-size: 16px;
+              background-color: #5262543b;
+              color: #2b2b2b;
+              border-radius: 20px;
+              padding: 20px;
+            "
+          >
+            <img
+              src="cocina.webp"
+              alt="Cocina moderna"
+              style="
+                width: 180px;
+                height: 270px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-radius: 20px;
+              "
+            />
+            <h4 style="margin-top: 0;">COCINA</h4>
+          </article>
+          <article
+            style="
+              width: 200px;
+              height: 300px;
+              text-align: center;
+              margin-right: 20px;
+              margin-left: 20px;
+              font-family: Arial, sans-serif;
+              font-size: 16px;
+              background-color: #5262543b;
+              color: #2b2b2b;
+              border-radius: 20px;
+              padding: 20px;
+            "
+          >
+            <img
+              src="baño.jpg"
+              alt="Baño moderno"
+              style="
+                width: 180px;
+                height: 270px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-radius: 20px;
+              "
+            />
+            <h4 style="margin-top: 0;">BAÑO</h4>
+          </article>
+          <article
+            style="
+              width: 200px;
+              height: 300px;
+              text-align: center;
+              margin-right: 20px;
+              margin-left: 20px;
+              font-family: Arial, sans-serif;
+              font-size: 16px;
+              background-color: #5262543b;
+              color: #2b2b2b;
+              border-radius: 20px;
+              padding: 20px;
+            "
+          >
+            <img
+              src="jardin.avif"
+              alt="Jardín moderno"
+              style="
+                width: 180px;
+                height: 270px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                border-radius: 20px;
+              "
+            />
+            <h4 style="margin-top: 0;">JARDÍN</h4>
+          </article>
         </div>
-      </section>
-     
-      <section
-        style="
-          display: flex;
-          alin-items: center;
-          justify-content: space-between;
-          margin-left: 2px;
-          margin-top: 60px;
-        "       background-color: #f5f5f5; padding: 20px; border-radius: 10px"
-          />
-            <article id="sobre-mi1" style="flex: 1; background-color: #252525; text-align: center; border: 1px solid #ccc; padding: 0; border-radius: 10px; margin: 20px">
-              <h2 style="color: white; font-size: 20px">Sobre mí</h2>
-              <p style="color: white; font-size: 14px">
-                Párrafo de prueba
-              </p>
-            </article>
-            <article id="sobre-mi2" style="flex: 1;background-color: #252525; text-align: center; border: 1px solid #ccc; padding: 0; border-radius: 10px; margin: 20px">
-              <h2 style="color: white; font-size: 20px">Sobre mí</h2>
-              <p style="color: white; font-size: 14px">
-                Párrafo de prueba
-              </p>
-            </article>
-            <article id="sobre-mi3" style="flex: 1;background-color: #252525; text-align: center; border: 1px solid #ccc; padding: 0; border-radius: 10px; margin: 20px">
-              <h2 style="color: white; font-size: 20px">Sobre mí</h2>
-              <p style="color: white; font-size: 14px">
-                Párrafo de prueba
-              </p>
-            </article>
-            <div>
-      </section>
-    </main>
-  </body>
-  <footer
-    style="
-      background-color: hsl(0, 0%, 13%);
-      margin-top: 60px;
-      padding: 120px;
-      text-align: center;
-      color: white;
-    "
+      </div>
+    </section>
+    <section
+      style="
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 500px;
+        background-color: #F9F8F6;
+        border-radius: 20px;
+        margin-top: 20px;
+      "
     >
-        <p style="font-size: 12px; margin: 0">
-            &copy; 2024 Mi primera página web. Todos los derechos reservados.
-        </p>
-    </footer>
+    <div
+        style="
+          text-align: center;
+          font-family: Arial, sans-serif;
+          font-size: 24px;
+          color: #2b2b2b;
+          padding: 20px;
+          padding-top: 50px;
+        "
+        >
+      <h3 style="color: #526254; margin-top: 20px;">NUESTRO EQUIPO</h3>
+      <p style="color: #526254; margin-top: 10px;">Conoce a los profesionales detrás de Lumo Home.</p>
+    </div>
+    <div>
+        <img src="lampara-pie-terra.png" alt="Nuestro equipo" style="width: 400px; height: 600px; border-radius: 20px; margin-top: 20px;" />
+    </div>
+    </section>
+  </body>
 </html>
